@@ -31,7 +31,7 @@ if __name__ == "__main__":
 
 	args = parser.parse_args()
 	if args.version is None:
-		args.version = 2
+		args.version = 3
 	if args.version == 3:
 		print(onion_address_v3(args.file).decode() + '.onion')
 	elif args.version == 2:
