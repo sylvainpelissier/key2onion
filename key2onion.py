@@ -27,7 +27,8 @@ def onion_address_v3(priv_key_file):
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
 	parser.add_argument('file', type=str, help='private key file')
-	parser.add_argument('-v', '--version', type=int, help='onion service address version, 2 or 3.')
+	parser.add_argument('-v', '--version', type=int, \
+					help='onion service address version, 2 or 3.')
 
 	args = parser.parse_args()
 	if args.version is None:
