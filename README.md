@@ -1,4 +1,6 @@
 # ⚙️ key2onion
+![Tests Status](https://github.com/sylvainpelissier/key2onion/actions/workflows/ci.yml/badge.svg?branch=master)
+
 Convert private keys to .onion domains.
 
 ## Purpose?
